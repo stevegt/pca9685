@@ -16,3 +16,6 @@
 
 local
 examples/random/random
+examples/calibrate/calibrate
+examples/calibrate/.calibrate-history
+
