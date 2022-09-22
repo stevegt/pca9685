@@ -26,7 +26,7 @@ func main() {
 
 	for {
 		// move servo around randomly
-		a := rand.Float32() * s.AngleMax
+		a := rand.Float32() * s.AngleRange
 		t := s.Angle(a)
 
 		// print trace info
